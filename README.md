@@ -46,7 +46,7 @@ This shows:
 In action:
 ![n8n_workflow](img/img2.png)
 
-Here is the result:
+Here is the result (in French):
 ![n8n_workflow](img/img3.png)
 
 ---
