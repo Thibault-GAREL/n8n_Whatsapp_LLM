@@ -11,10 +11,10 @@
 ---
 
 ## 📝 Project Description
-This project connects **WhatsApp messages** directly to your **local AI model (LLM via Ollama)** using **n8n**, **Meta’s WhatsApp Cloud API**, and **ngrok**.  
-Every time you send a message from WhatsApp, it passes through n8n → your local AI → and the AI’s response is sent back to WhatsApp.  
+This project connects **WhatsApp messages** directly to a **local AI model (LLM via Ollama)** using **n8n**, **Meta’s WhatsApp Cloud API**, and **ngrok**.  
+Every time you send a message from WhatsApp, it passes through n8n → a local AI → and the AI’s response is sent back to WhatsApp.  
 
-⚡️ Essentially, you’re chatting with your own locally hosted AI — through WhatsApp!
+⚡️ Essentially, in this project, you’re chatting with your own locally hosted AI — through WhatsApp! (So you can add RAG confidentially)
 
 ---
 
@@ -34,14 +34,20 @@ Every time you send a message from WhatsApp, it passes through n8n → your loca
 
 ## 🧠 Example Workflow
 
-Here’s a snapshot of what the n8n workflow looks like:
+Here’s what the n8n workflow looks like:
 
 ![n8n_workflow](img/img.png)
 
 This shows:
 - Webhooks handling WhatsApp messages  
 - Ollama Chat Model generating intelligent replies  
-- Automatic sending of responses via the WhatsApp API  
+- Automatic sending of responses via the WhatsApp API
+
+In action:
+![n8n_workflow](img/img2.png)
+
+Here is the result:
+![n8n_workflow](img/img3.png)
 
 ---
 
